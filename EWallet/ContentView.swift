@@ -33,6 +33,62 @@ struct Home : View{
                     Image("menu").renderingMode(.original)
                 }
             }
+            HStack{
+                Text("Account Overview").foregroundColor(Color("Color"))
+                Spacer()
+            }
+            .padding(.top,18)
+            HStack{
+                VStack(alignment: .leading, spacing: 15){
+                    Text("$25000").font(.title)
+                    Text("Current Balance")
+                }
+                Spacer()
+                Button(action: {
+                    
+                }){
+                    Image("add").renderingMode(.original)
+                }
+            }
+            .padding(20)
+            .background(Color.black.opacity(0.05))
+            .cornerRadius(20)
+            HStack{
+                Text("Send Money").foregroundColor(Color("Color"))
+                Spacer()
+                Button(action: {
+                    
+                }){
+                    Image("scan").renderingMode(.original)
+                }
+            }
+            .padding(.top)
+            ScrollView(.horizontal, showsIndicators: false){
+                HStack(spacing : 15){
+                    Button(action: {
+                        
+                    }){
+                        Image("add").renderingMode(.original)
+                    }
+                    ForEach(names, id: \.self){i in
+                        VStack(spacing : 10){
+                            Image("person")
+                            Text(i).foregroundColor(Color.black.opacity(0.5))
+                            
+                        }.frame(width : 100)
+                            .padding(.vertical)
+                            .background(Color.black.opacity(0.05))
+                        .cornerRadius(10)
+                    }
+                }.padding(.leading)
+            }.padding(.top,18)
+            
+            HStack{
+                Text("Services").foregr
+            }
+            Spacer()
         }.padding([.horizontal,.top])
     }
 }
+
+var names = ["Bill", "Steve", "Kavuya", "Tim","Jeevana"]
