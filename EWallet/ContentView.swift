@@ -54,13 +54,13 @@ struct Home : View{
             .background(Color.black.opacity(0.05))
             .cornerRadius(20)
             HStack{
-                Text("Send Money").foregroundColor(Color("Color"))
-                Spacer()
-                Button(action: {
-                    
-                }){
-                    Image("scan").renderingMode(.original)
-                }
+                    Text("Send Money").foregroundColor(Color("Color"))
+                    Spacer()
+                    Button(action: {
+                        
+                    }){
+                        Image("scan").renderingMode(.original)
+                    }
             }
             .padding(.top)
             ScrollView(.horizontal, showsIndicators: false){
@@ -84,7 +84,13 @@ struct Home : View{
             }.padding(.top,18)
             
             HStack{
-                Text("Services").foregr
+                Text("Services").foregroundColor(Color("Color"))
+                Spacer()
+                Button(action: {
+                    
+                }){
+                    Image("filter").renderingMode(.original)
+                }
             }
             Spacer()
         }.padding([.horizontal,.top])
