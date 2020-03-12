@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1C2CDA2241A0CA900F4552B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2CDA1241A0CA900F4552B /* AppDelegate.swift */; };
+		C1C2CDA4241A0CA900F4552B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2CDA3241A0CA900F4552B /* SceneDelegate.swift */; };
+		C1C2CDA6241A0CAA00F4552B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2CDA5241A0CAA00F4552B /* ContentView.swift */; };
+		C1C2CDA8241A0CBD00F4552B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C2CDA7241A0CBD00F4552B /* Assets.xcassets */; };
+		C1C2CDAB241A0CBD00F4552B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C2CDAA241A0CBD00F4552B /* Preview Assets.xcassets */; };
+		C1C2CDAE241A0CBD00F4552B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C2CDAC241A0CBD00F4552B /* LaunchScreen.storyboard */; };
+		C1C2CDB9241A0CBD00F4552B /* EWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2CDB8241A0CBD00F4552B /* EWalletTests.swift */; };
+		C1C2CDC4241A0CBD00F4552B /* EWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2CDC3241A0CBD00F4552B /* EWalletUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1C2CDB5241A0CBD00F4552B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C2CD96241A0CA900F4552B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C2CD9D241A0CA900F4552B;
+			remoteInfo = EWallet;
+		};
+		C1C2CDC0241A0CBD00F4552B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C2CD96241A0CA900F4552B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C2CD9D241A0CA900F4552B;
+			remoteInfo = EWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1C2CD9E241A0CA900F4552B /* EWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C2CDA1241A0CA900F4552B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1C2CDA3241A0CA900F4552B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1C2CDA5241A0CAA00F4552B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1C2CDA7241A0CBD00F4552B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1C2CDAA241A0CBD00F4552B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1C2CDAD241A0CBD00F4552B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1C2CDAF241A0CBD00F4552B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C2CDB4241A0CBD00F4552B /* EWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C2CDB8241A0CBD00F4552B /* EWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWalletTests.swift; sourceTree = "<group>"; };
+		C1C2CDBA241A0CBD00F4552B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C2CDBF241A0CBD00F4552B /* EWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C2CDC3241A0CBD00F4552B /* EWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWalletUITests.swift; sourceTree = "<group>"; };
+		C1C2CDC5241A0CBD00F4552B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1C2CD9B241A0CA900F4552B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C2CDB1241A0CBD00F4552B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C2CDBC241A0CBD00F4552B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1C2CD95241A0CA900F4552B = {
+			isa = PBXGroup;
+			children = (
+				C1C2CDA0241A0CA900F4552B /* EWallet */,
+				C1C2CDB7241A0CBD00F4552B /* EWalletTests */,
+				C1C2CDC2241A0CBD00F4552B /* EWalletUITests */,
+				C1C2CD9F241A0CA900F4552B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1C2CD9F241A0CA900F4552B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2CD9E241A0CA900F4552B /* EWallet.app */,
+				C1C2CDB4241A0CBD00F4552B /* EWalletTests.xctest */,
+				C1C2CDBF241A0CBD00F4552B /* EWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1C2CDA0241A0CA900F4552B /* EWallet */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2CDA1241A0CA900F4552B /* AppDelegate.swift */,
+				C1C2CDA3241A0CA900F4552B /* SceneDelegate.swift */,
+				C1C2CDA5241A0CAA00F4552B /* ContentView.swift */,
+				C1C2CDA7241A0CBD00F4552B /* Assets.xcassets */,
+				C1C2CDAC241A0CBD00F4552B /* LaunchScreen.storyboard */,
+				C1C2CDAF241A0CBD00F4552B /* Info.plist */,
+				C1C2CDA9241A0CBD00F4552B /* Preview Content */,
+			);
+			path = EWallet;
+			sourceTree = "<group>";
+		};
+		C1C2CDA9241A0CBD00F4552B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2CDAA241A0CBD00F4552B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1C2CDB7241A0CBD00F4552B /* EWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2CDB8241A0CBD00F4552B /* EWalletTests.swift */,
+				C1C2CDBA241A0CBD00F4552B /* Info.plist */,
+			);
+			path = EWalletTests;
+			sourceTree = "<group>";
+		};
+		C1C2CDC2241A0CBD00F4552B /* EWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2CDC3241A0CBD00F4552B /* EWalletUITests.swift */,
+				C1C2CDC5241A0CBD00F4552B /* Info.plist */,
+			);
+			path = EWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1C2CD9D241A0CA900F4552B /* EWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C2CDC8241A0CBD00F4552B /* Build configuration list for PBXNativeTarget "EWallet" */;
+			buildPhases = (
+				C1C2CD9A241A0CA900F4552B /* Sources */,
+				C1C2CD9B241A0CA900F4552B /* Frameworks */,
+				C1C2CD9C241A0CA900F4552B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EWallet;
+			productName = EWallet;
+			productReference = C1C2CD9E241A0CA900F4552B /* EWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1C2CDB3241A0CBD00F4552B /* EWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C2CDCB241A0CBD00F4552B /* Build configuration list for PBXNativeTarget "EWalletTests" */;
+			buildPhases = (
+				C1C2CDB0241A0CBD00F4552B /* Sources */,
+				C1C2CDB1241A0CBD00F4552B /* Frameworks */,
+				C1C2CDB2241A0CBD00F4552B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C2CDB6241A0CBD00F4552B /* PBXTargetDependency */,
+			);
+			name = EWalletTests;
+			productName = EWalletTests;
+			productReference = C1C2CDB4241A0CBD00F4552B /* EWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1C2CDBE241A0CBD00F4552B /* EWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C2CDCE241A0CBD00F4552B /* Build configuration list for PBXNativeTarget "EWalletUITests" */;
+			buildPhases = (
+				C1C2CDBB241A0CBD00F4552B /* Sources */,
+				C1C2CDBC241A0CBD00F4552B /* Frameworks */,
+				C1C2CDBD241A0CBD00F4552B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C2CDC1241A0CBD00F4552B /* PBXTargetDependency */,
+			);
+			name = EWalletUITests;
+			productName = EWalletUITests;
+			productReference = C1C2CDBF241A0CBD00F4552B /* EWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1C2CD96241A0CA900F4552B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Dhanush;
+				TargetAttributes = {
+					C1C2CD9D241A0CA900F4552B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					C1C2CDB3241A0CBD00F4552B = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = C1C2CD9D241A0CA900F4552B;
+					};
+					C1C2CDBE241A0CBD00F4552B = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = C1C2CD9D241A0CA900F4552B;
+					};
+				};
+			};
+			buildConfigurationList = C1C2CD99241A0CA900F4552B /* Build configuration list for PBXProject "EWallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1C2CD95241A0CA900F4552B;
+			productRefGroup = C1C2CD9F241A0CA900F4552B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1C2CD9D241A0CA900F4552B /* EWallet */,
+				C1C2CDB3241A0CBD00F4552B /* EWalletTests */,
+				C1C2CDBE241A0CBD00F4552B /* EWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1C2CD9C241A0CA900F4552B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C2CDAE241A0CBD00F4552B /* LaunchScreen.storyboard in Resources */,
+				C1C2CDAB241A0CBD00F4552B /* Preview Assets.xcassets in Resources */,
+				C1C2CDA8241A0CBD00F4552B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C2CDB2241A0CBD00F4552B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C2CDBD241A0CBD00F4552B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1C2CD9A241A0CA900F4552B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C2CDA2241A0CA900F4552B /* AppDelegate.swift in Sources */,
+				C1C2CDA4241A0CA900F4552B /* SceneDelegate.swift in Sources */,
+				C1C2CDA6241A0CAA00F4552B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C2CDB0241A0CBD00F4552B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C2CDB9241A0CBD00F4552B /* EWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C2CDBB241A0CBD00F4552B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C2CDC4241A0CBD00F4552B /* EWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1C2CDB6241A0CBD00F4552B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C2CD9D241A0CA900F4552B /* EWallet */;
+			targetProxy = C1C2CDB5241A0CBD00F4552B /* PBXContainerItemProxy */;
+		};
+		C1C2CDC1241A0CBD00F4552B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C2CD9D241A0CA900F4552B /* EWallet */;
+			targetProxy = C1C2CDC0241A0CBD00F4552B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1C2CDAC241A0CBD00F4552B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C2CDAD241A0CBD00F4552B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1C2CDC6241A0CBD00F4552B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1C2CDC7241A0CBD00F4552B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1C2CDC9241A0CBD00F4552B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EWallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.EWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1C2CDCA241A0CBD00F4552B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EWallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.EWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1C2CDCC241A0CBD00F4552B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.EWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWallet.app/EWallet";
+			};
+			name = Debug;
+		};
+		C1C2CDCD241A0CBD00F4552B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.EWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWallet.app/EWallet";
+			};
+			name = Release;
+		};
+		C1C2CDCF241A0CBD00F4552B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.EWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EWallet;
+			};
+			name = Debug;
+		};
+		C1C2CDD0241A0CBD00F4552B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.EWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1C2CD99241A0CA900F4552B /* Build configuration list for PBXProject "EWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C2CDC6241A0CBD00F4552B /* Debug */,
+				C1C2CDC7241A0CBD00F4552B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C2CDC8241A0CBD00F4552B /* Build configuration list for PBXNativeTarget "EWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C2CDC9241A0CBD00F4552B /* Debug */,
+				C1C2CDCA241A0CBD00F4552B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C2CDCB241A0CBD00F4552B /* Build configuration list for PBXNativeTarget "EWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C2CDCC241A0CBD00F4552B /* Debug */,
+				C1C2CDCD241A0CBD00F4552B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C2CDCE241A0CBD00F4552B /* Build configuration list for PBXNativeTarget "EWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C2CDCF241A0CBD00F4552B /* Debug */,
+				C1C2CDD0241A0CBD00F4552B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1C2CD96241A0CA900F4552B /* Project object */;
+}
