@@ -10,7 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Home()
+        ScrollView(.vertical, showsIndicators: false){
+            VStack{
+                Home()
+                Row1()
+            }
+        }
+        
+        
     }
 }
 
@@ -54,13 +61,13 @@ struct Home : View{
             .background(Color.black.opacity(0.05))
             .cornerRadius(20)
             HStack{
-                    Text("Send Money").foregroundColor(Color("Color"))
-                    Spacer()
-                    Button(action: {
-                        
-                    }){
-                        Image("scan").renderingMode(.original)
-                    }
+                Text("Send Money").foregroundColor(Color("Color"))
+                Spacer()
+                Button(action: {
+                    
+                }){
+                    Image("scan").renderingMode(.original)
+                }
             }
             .padding(.top)
             ScrollView(.horizontal, showsIndicators: false){
@@ -78,11 +85,10 @@ struct Home : View{
                         }.frame(width : 100)
                             .padding(.vertical)
                             .background(Color.black.opacity(0.05))
-                        .cornerRadius(10)
+                            .cornerRadius(10)
                     }
                 }.padding(.leading)
             }.padding(.top,18)
-            
             HStack{
                 Text("Services").foregroundColor(Color("Color"))
                 Spacer()
@@ -91,10 +97,12 @@ struct Home : View{
                 }){
                     Image("filter").renderingMode(.original)
                 }
-            }
-            Spacer()
+            }.padding(.top)
+            Spacer(minLength : 0)
         }.padding([.horizontal,.top])
     }
 }
+
+
 
 var names = ["Bill", "Steve", "Kavuya", "Tim","Jeevana"]

@@ -15,6 +15,7 @@
 		C1C2CDAE241A0CBD00F4552B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C2CDAC241A0CBD00F4552B /* LaunchScreen.storyboard */; };
 		C1C2CDB9241A0CBD00F4552B /* EWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2CDB8241A0CBD00F4552B /* EWalletTests.swift */; };
 		C1C2CDC4241A0CBD00F4552B /* EWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2CDC3241A0CBD00F4552B /* EWalletUITests.swift */; };
+		C1C2CDD2241A54CD00F4552B /* Row1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2CDD1241A54CD00F4552B /* Row1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C1C2CDBF241A0CBD00F4552B /* EWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C2CDC3241A0CBD00F4552B /* EWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWalletUITests.swift; sourceTree = "<group>"; };
 		C1C2CDC5241A0CBD00F4552B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C2CDD1241A54CD00F4552B /* Row1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				C1C2CDA1241A0CA900F4552B /* AppDelegate.swift */,
 				C1C2CDA3241A0CA900F4552B /* SceneDelegate.swift */,
+				C1C2CDD1241A54CD00F4552B /* Row1.swift */,
 				C1C2CDA5241A0CAA00F4552B /* ContentView.swift */,
 				C1C2CDA7241A0CBD00F4552B /* Assets.xcassets */,
 				C1C2CDAC241A0CBD00F4552B /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 			files = (
 				C1C2CDA2241A0CA900F4552B /* AppDelegate.swift in Sources */,
 				C1C2CDA4241A0CA900F4552B /* SceneDelegate.swift in Sources */,
+				C1C2CDD2241A54CD00F4552B /* Row1.swift in Sources */,
 				C1C2CDA6241A0CAA00F4552B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
