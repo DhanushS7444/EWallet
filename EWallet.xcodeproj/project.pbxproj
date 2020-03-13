@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1AA0614241B5BCD0002848A /* Row2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0613241B5BCD0002848A /* Row2.swift */; };
 		C1C2CDA2241A0CA900F4552B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2CDA1241A0CA900F4552B /* AppDelegate.swift */; };
 		C1C2CDA4241A0CA900F4552B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2CDA3241A0CA900F4552B /* SceneDelegate.swift */; };
 		C1C2CDA6241A0CAA00F4552B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2CDA5241A0CAA00F4552B /* ContentView.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1AA0613241B5BCD0002848A /* Row2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row2.swift; sourceTree = "<group>"; };
 		C1C2CD9E241A0CA900F4552B /* EWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C2CDA1241A0CA900F4552B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1C2CDA3241A0CA900F4552B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				C1C2CDA1241A0CA900F4552B /* AppDelegate.swift */,
 				C1C2CDA3241A0CA900F4552B /* SceneDelegate.swift */,
 				C1C2CDD1241A54CD00F4552B /* Row1.swift */,
+				C1AA0613241B5BCD0002848A /* Row2.swift */,
 				C1C2CDA5241A0CAA00F4552B /* ContentView.swift */,
 				C1C2CDA7241A0CBD00F4552B /* Assets.xcassets */,
 				C1C2CDAC241A0CBD00F4552B /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 				C1C2CDA2241A0CA900F4552B /* AppDelegate.swift in Sources */,
 				C1C2CDA4241A0CA900F4552B /* SceneDelegate.swift in Sources */,
 				C1C2CDD2241A54CD00F4552B /* Row1.swift in Sources */,
+				C1AA0614241B5BCD0002848A /* Row2.swift in Sources */,
 				C1C2CDA6241A0CAA00F4552B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

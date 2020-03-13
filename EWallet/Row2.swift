@@ -1,25 +1,26 @@
 //
-//  Row1.swift
+//  Row2.swift
 //  EWallet
 //
-//  Created by Dhanush on 12/03/20.
+//  Created by Dhanush on 13/03/20.
 //  Copyright © 2020 Dhanush. All rights reserved.
 //
 
 import SwiftUI
-struct Row1 : View {
-    var body : some View {
-        HStack(alignment : .top){
+
+struct Row2 : View{
+    var body : some View{
+        HStack(alignment:.top){
             Button(action : {
                 
             }){
                 VStack(spacing : 8){
                     VStack{
-                        Image("rupees").renderingMode(.original)
+                        Image("tag").renderingMode(.original)
                     }.padding()
                         .background(Color.black.opacity(0.05))
-                        .cornerRadius(10)
-                    Text("Send Money")
+                    .cornerRadius(10)
+                    Text("Cashback & Offer")
                         .frame(width : 55)
                         .font(.caption)
                         .foregroundColor(Color.black.opacity(0.5))
@@ -33,18 +34,17 @@ struct Row1 : View {
             }){
                 VStack(spacing : 8){
                     VStack{
-                        Image("rupees").renderingMode(.original)
+                        Image("movie").renderingMode(.original)
                     }.padding()
                         .background(Color.black.opacity(0.05))
-                        .cornerRadius(10)
-                    Text("Recieve Money")
+                    .cornerRadius(10)
+                    Text("Movie Tickets")
                         .frame(width : 55)
                         .font(.caption)
                         .foregroundColor(Color.black.opacity(0.5))
                         .multilineTextAlignment(.center)
                 }
             }
-            
             Spacer(minLength: 15)
             
             Button(action : {
@@ -52,35 +52,36 @@ struct Row1 : View {
             }){
                 VStack(spacing : 8){
                     VStack{
-                        Image("mobile").renderingMode(.original)
+                        Image("plane").renderingMode(.original)
                     }.padding()
                         .background(Color.black.opacity(0.05))
-                        .cornerRadius(10)
-                    Text("Mobile Prepaid")
+                    .cornerRadius(10)
+                    Text("Flight Ticket")
                         .frame(width : 55)
                         .font(.caption)
                         .foregroundColor(Color.black.opacity(0.5))
                         .multilineTextAlignment(.center)
                 }
             }
-            
             Spacer(minLength: 15)
+
             Button(action : {
                 
             }){
                 VStack(spacing : 8){
                     VStack{
-                        Image("flash").renderingMode(.original)
+                        Image("dots").renderingMode(.original)
                     }.padding()
                         .background(Color.black.opacity(0.05))
-                        .cornerRadius(10)
-                    Text("Electric Bill")
+                    .cornerRadius(10)
+                    Text("More Options")
                         .frame(width : 55)
                         .font(.caption)
                         .foregroundColor(Color.black.opacity(0.5))
                         .multilineTextAlignment(.center)
                 }
             }
+            Spacer(minLength: 15)
         }
     }
 }
