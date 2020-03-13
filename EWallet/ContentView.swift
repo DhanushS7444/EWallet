@@ -102,13 +102,6 @@ struct Home : View{
                        }.padding(.top)
                        Spacer(minLength : 0)
                    }.padding([.horizontal,.top])
-            VStack{
-                Spacer()
-                Menu().offset(y: self.show ? (UIApplication.shared.windows.first?.safeAreaInsets.bottom)! : UIScreen.main.bounds.height)
-            }.background(Color.black.opacity(self.show ? 0.5 : 0).edgeIgnoringSafeArea(.all)
-                .onTapGesture {
-                    self.show.toggle()
-                })
         }
     }
 }
