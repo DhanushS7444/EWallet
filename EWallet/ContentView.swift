@@ -27,6 +27,7 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 struct Home : View{
+    @State var show = false
     var body : some View{
         ZStack{
             VStack(spacing : 20){
@@ -35,7 +36,7 @@ struct Home : View{
                            Text("eWallet").font(.title)
                            Spacer()
                            Button(action :{
-                               
+                            self.show.toggle()
                            }){
                                Image("menu").renderingMode(.original)
                            }
@@ -103,8 +104,11 @@ struct Home : View{
                    }.padding([.horizontal,.top])
             VStack{
                 Spacer()
-                Menu().offset(y: UIApp)
-            }
+                Menu().offset(y: self.show ? (UIApplication.shared.windows.first?.safeAreaInsets.bottom)! : UIScreen.main.bounds.height)
+            }.background(Color.black.opacity(self.show ? 0.5 : 0).edgeIgnoringSafeArea(.all)
+                .onTapGesture {
+                    self.show.toggle()
+                })
         }
     }
 }
@@ -185,6 +189,7 @@ struct Menu : View {
             .cornerRadius(10)
         }
     .padding()
+        .padding(.bottom, UIApplication.shared.windows.first?.safeAreaInsets.bottom)
         .background(Color.white)
     .cornerRadius(25)
     }
